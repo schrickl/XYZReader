@@ -21,8 +21,25 @@
 
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Title">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/theme_primary_dark</item>
+    </style>
+
+    <style name="Theme.Bacon.SubTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/theme_primary</item>
     </style>
 
 </resources>
